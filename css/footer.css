@@ -1,0 +1,45 @@
+footer {
+margin-top: 20px;
+padding-bottom: 65px;
+}
+
+footer h5 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    margin-top: 25px;
+    line-height: 28px;
+    font-family: 'SF Pro Display Light';
+    font-size: 18px;
+}
+footer ul {
+    display: flex;
+    gap: 98px;
+    justify-content: center;
+    margin-top: 45px;
+}
+footer ul li {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer_links {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+footer span {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15px;
+    color: rgba(95, 95, 95, 1);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+}

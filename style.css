@@ -1,0 +1,741 @@
+
+/**/
+.main_block {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #2F80ED;
+    border-radius: 45px;
+    margin: 0 auto;
+    margin-top: 13px;
+
+    
+}
+.main_block_text_one p {
+    font-family: 'AeonikProTRIAL Regular';
+    font-size: 100px;
+    color: white;
+
+    text-align: center;
+
+    margin: 0 auto;
+    padding-top: 85px;
+    line-height: 87.29px;
+    letter-spacing: -4px;
+}
+.main_block span {
+    font-family: 'AeonikProTRIAL Bold';
+    font-size: 100px;
+    color: white;
+}
+
+.main_block_text_two p{
+    padding-top: 25px;
+    color: white;
+    font-family: 'SF Pro Display Thin';
+    max-width: 717px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 27px;
+    font-size: 18px;
+}
+.main_block_btn a {
+    width: 209px;
+    height: 57px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main_block_img  {
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+}
+
+/**/
+
+.about_block {
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.about_block_img {
+    margin-top: 82px;
+    padding-bottom: 82px;
+}
+.about_block_text {
+    margin-top: 119px;
+}
+.about_block_text div {
+    display: flex;
+    align-items: center;
+}
+
+.about_block_text div span:first-child {
+    font-size: 48px;
+    font-family: 'SF Pro Display Medium';
+}
+.about_block_text div span:last-child {
+    font-size: 24px;    
+    color: #727272;
+    width: 289px;
+    height: 47px;
+    border: solid 0.66px #1E1C1C; 
+    border-radius: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    font-family: 'SF Pro Display Regular';
+}
+.about_block_text p {
+    font-size: 20px;
+    color: #171717;
+    font-family: 'SF Pro Display Light';
+    line-height: 28px;
+    max-width: 816px;
+    width: 100%;
+}
+.about_block_text p:nth-child(2) {
+    margin-top: 36px;
+}
+.about_block_text p:nth-child(3) {
+    margin-top: 23px;
+}
+.about_block_text a {
+    background-color: #2F80ED;
+    width: 317px;
+    height: 57px;
+    border-radius: 40px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'SF Pro Display Regular';
+    margin-top: 77px;
+}
+
+/**/
+
+.bitrix_reason_block {
+    padding-top: 40px;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    position: relative;
+}
+.bitrix_reason_block h2 {
+    text-align: center;
+    font-family: 'AeonikProTRIAL Bold';
+
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 auto;
+}
+.bitrix_reason_block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bitrix_reason_block_gradient {
+    max-width: 1332px;
+    width: 100%;
+    padding-bottom: 20px;
+
+    background: linear-gradient(to right, rgba(43, 97, 247, 0.1) 10%, rgba(25, 57, 145, 0) 100%);
+
+}
+.bitrix_reason_block .bitrix_reason_block_gradient:nth-child(2) {
+    margin-top: 60px;
+}
+.bitrix_reason_block_gradient div {
+    border: solid 1px;
+    border-radius: 650px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 40px;
+
+    font-family: 'SF Pro Display Regular';
+
+    font-size: 20px;
+    font-weight: 900;
+}
+.bitrix_reason_block_gradient span {
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+    font-family: 'SF Pro Display Light';
+    line-height: 30px;
+    color: #5F5F5F;
+}
+.img_one {
+    position: absolute;
+    transform: translate(720px, 260px);
+    /* left: 720px; */
+
+    /* max-width: 888px;
+    width: 100%; */
+    /* height: 592px; */
+    width: 1003px;
+}
+
+.img_two {
+    width: 244px;
+    height: 500px;
+    position: absolute;
+
+    transform: translate(1253px, 556px);
+}
+
+.bitrix_reason_block a {
+    font-family: 'SF Pro Display Regular';
+    width: 222px;
+    height: 57px;
+    background-color: #2F80ED;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/**/
+.bitrix_portfolio {
+    margin-top: 50px;
+
+    padding-bottom: 50px;
+}
+
+.bitrix_portfolio h2 {
+    text-align: center;
+    font-family: 'AeonikProTRIAL Bold';
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 auto;
+}
+.bitrix_portfolio_content_row_one {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 83px;
+    font-family: 'SF Pro Display Regular';
+}
+
+.bitrix_portfolio_content_row_one a:nth-child(1) {
+    max-width: 301px;
+    width: 100%;
+    height: 376px;
+    display: block;
+
+}
+
+.bitrix_portfolio_content_row_one a:nth-child(2) {
+    max-width: 734px;
+    width: 100%;
+    height: 376px;
+    display: block;
+}
+
+.bitrix_portfolio_content_row_one a:nth-child(3) {
+    max-width: 363px;
+    width: 100%;
+    height: 376px;
+    display: block;
+}
+
+
+.bitrix_portfolio_content_block1 {
+    max-width: 301px;
+    width: 100%;
+    height: 376px;
+    background-image: url(/img/port1.png);
+
+    display: flex;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.bitrix_portfolio_content_block2 {
+    max-width: 734px;
+    width: 100%;
+    height: 376px;
+    background-image: url(/img/port3.png);
+    display: flex;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.bitrix_portfolio_content_block3 {
+    max-width: 363px;
+    width: 100%;
+    height: 376px;
+    background-image: url(/img/port2.png);
+    display: flex;
+    align-items: end;
+    font-size: 19px;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.bitrix_portfolio_content_row_two {
+    max-width: 1440px;
+    width: 100%;
+    font-family: 'SF Pro Display Regular';
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.bitrix_portfolio_content_block4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 448px;
+    width: 100%;
+
+}
+.bitrix_portfolio_content_block4 h3 {
+    font-size: 32px;
+    font-family: 'SF Pro Display Black';
+}
+.bitrix_portfolio_content_block4 p {
+    font-family: 'SF Pro Display Thin';
+    font-size: 20px;
+    margin-top: 20px;
+}
+.bitrix_portfolio_content_block4 a {
+    width: 303px;
+    height: 57px;
+    background-color: #2F80ED;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    margin-top: 35px;
+}
+
+
+
+
+
+.bitrix_portfolio_content_block5 {
+    max-width: 298px;
+    width: 100%;
+    background-image: url(/img/port4.png);
+    height: 437px;
+    
+}
+.bitrix_portfolio_content_block5 a {
+    max-width: 298px;
+    width: 100%;
+    height: 437px;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    
+}
+.bitrix_portfolio_content_block6 {
+    max-width: 654px;
+    width: 100%;
+    background-image: url(/img/port5.png);
+    height: 437px;
+   
+}
+.bitrix_portfolio_content_block6 a{
+    max-width: 654px;
+    width: 100%;
+    height: 437px;
+    font-size: 19px;
+    color: white;
+    display: flex;
+    align-items: end;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+
+}
+/**/
+.reviews {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-family: 'AeonikProTRIAL Bold';
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 auto;
+}
+.reviews_block {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.reviews_block div {
+    max-width: 465px;
+    width: 100%;
+    /* height: 371px; */
+    padding-bottom: 50px;
+    background-color: #2F80ED;
+}
+.reviews_block div h4 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 389px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 28px;
+    text-align: center;
+    height: 41px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reviews_block div p {
+    color: white;
+    line-height: 22.89px;
+    font-weight: 300;
+    margin-top: 20px;
+    font-size: 13px;
+    margin-left: 38px;
+
+    max-width: 388px;
+    width: 100%;
+}
+.reviews_block div article {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 38px;
+    gap: 9px;
+}
+.reviews_block div article img {
+    border-radius: 100px;
+}
+.reviews_block div article span {
+    color: white;
+    font-size: 15px;
+}
+
+.reviews_show_more {
+    width: 292px;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2F80ED;
+    border-radius: 40px;
+
+    margin: 0 auto;
+    margin-top: 60px;
+
+    font-weight: 600;
+}
+
+/**/
+
+.steps_of_work {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.steps_of_work h2 {
+    text-align: center;
+    font-family: 'AeonikProTRIAL Bold';
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 auto;
+}
+
+.steps_of_work_content {
+    
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.steps_of_work_content_block {
+    display: flex;
+    gap: 25px;
+}
+.steps_of_work_content_block_one {
+    width: 85px;
+    height: 119px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.steps_of_work_content_block_two {
+    background: linear-gradient(to right, rgba(43, 97, 247, 0.1) 10%, rgba(25, 57, 145, 0) 100%);
+    max-width: 1332px;
+    width: 100%;
+    /* height: 114px; */
+}
+
+.circle {
+    width: 85px;
+    height: 85px;
+    border-radius: 100px;
+    background-color: #2F80ED;
+    color: white;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.steps_of_work_content_block_one span {
+    color: #5F5F5F;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    width: 58px;
+}
+
+.steps_of_work_content_block_two p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.steps_of_work_content_block_two span {
+    display: block;
+    color: #5F5F5F;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+/**/
+
+.settings {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.settings h2 {
+    text-align: center;
+    font-family: 'AeonikProTRIAL Bold';
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 auto;
+}
+.settings_content {
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: space-between;
+
+
+}
+.settings_content_block {
+    width: 461px;
+    height: 714px;
+    background-color: #F2F2F2;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.s_img_one {
+    margin-top: 154px;
+    margin-left: 79px;
+}
+.settings_content_block ul {
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 31px;
+    /* margin-top: 143px; */
+    margin-top: 50px;
+}
+.settings_content_block ul li {
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 31px;
+    list-style: disc;
+
+    font-family: 'SF Pro Display Light';
+}
+.settings_content_block ul li:first-child {
+    margin-top: 11px;
+}
+
+.settings_content_block span {
+    display: block;
+    width: 100%;
+    height: 9px;
+    background-color: #2F80ED;
+}
+
+.s_img_two {
+    padding-top: 24px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.s_block2 ul {
+    /* margin-top: 62px; */
+    margin-top: -20px;
+}
+
+
+
+/**/
+
+
+.form {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 145px;
+
+    
+}
+.form_img {
+    margin-top: 71px;
+}
+
+.form h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    margin-top: 45px;
+}
+.form_block form {
+   margin-top: 48px;
+}
+.form_block form p {
+    font-family: 'SF Pro Display Medium';
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.form_block input {
+    border: none;
+    background-color: #FFFEFC;
+    max-width: 586px;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'SF Pro Display Regular';
+    margin-top: 29px;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form_block input::placeholder {
+    padding-left: 5px;
+    color: rgba(46, 46, 46, 0.2);
+}
+
+textarea {
+    border: none;
+    background-color: #FFFEFC;
+    max-width: 586px;
+    width: 100%;
+    resize: none;
+    border-bottom: 1px solid black;
+    font-family: 'SF Pro Display Regular';
+    font-size: 18px;
+    outline: none;
+    padding-top: 15px;
+    height: 100px;
+}
+textarea::placeholder {
+    color: rgba(46, 46, 46, 0.2);
+    padding-left: 5px;
+}
+
+.form_block button {
+    width: 258px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+
+    font-family: 'SF Pro Display Regular';
+    background-color: rgba(47, 128, 237, 1);
+    border: none;
+    border-radius: 30px;
+    margin-top: 60px;
+
+    cursor: pointer;
+
+}
+
+.form_img {
+    padding-left: 5px;
+
+}
+
+.form_img img {
+    width: 99%;
+}
