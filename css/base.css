@@ -127,6 +127,12 @@ body {
     display: none;
   }
 
+  .swiper-pagination {
+    position: relative !important;
+    z-index: 999 !important;
+    top: 2px !important;
+  }
+
   @media (max-width:900px) {
     .reviews_block div {
         display: none;
